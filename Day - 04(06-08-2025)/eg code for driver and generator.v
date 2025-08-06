@@ -14,6 +14,7 @@ module tb;
   end
   ->done;
   end
+  //Driver
   initial begin
    forever begin
      #10;
@@ -21,6 +22,7 @@ module tb;
     $display("Received data=%0d",data2);
   end
   end
+  //wait condition
   initial begin
     wait(done.triggered);
     $finish;
