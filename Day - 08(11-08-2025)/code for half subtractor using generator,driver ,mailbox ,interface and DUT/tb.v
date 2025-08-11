@@ -1,17 +1,14 @@
-//T.Guru Nandini Devi
-//nandinidevitekumudi@gmail.com
+// T.Guru Nandini Devi
+// nandinidevitekumudi@gmail.com
 class generator;
   mailbox mbx;
   task run();
-    int i;
-    bit [1:0] t[4];
-    t[0]=2'b00;
-    t[1]=2'b01;
-    t[2]=2'b10;
-    t[3]=2'b11;  
-    for(int i=0;i<4;i++)
-      mbx.put(t[i]);
-        $display("[GENERATOR] Sent a=%0d b=%0d", t[i][1], t[i][0]);   
+    bit a, b; 
+    for (int i = 0; i < 4; i++) begin
+      {a, b} = i; 
+      mbx.put({a, b});
+      $display("[GENERATOR] Sent a=%0d b=%0d", a, b);
+    end
   endtask
 endclass
 
