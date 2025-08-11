@@ -53,3 +53,19 @@ module tb;
     join
   end
 endmodule
+
+/*
+OUTPUT:
+# KERNEL: [GENERATOR] Sent a=0 b=0
+# KERNEL: [GENERATOR] Sent a=0 b=1
+# KERNEL: [GENERATOR] Sent a=1 b=0
+# KERNEL: [GENERATOR] Sent a=1 b=1
+# KERNEL: [DRIVER] Driving a=0 b=0
+# KERNEL: [DRIVER] DUT Output: sum=0 carry=0
+# KERNEL: [DRIVER] Driving a=0 b=1
+# KERNEL: [DRIVER] DUT Output: sum=1 carry=1
+# KERNEL: [DRIVER] Driving a=1 b=0
+# KERNEL: [DRIVER] DUT Output: sum=1 carry=0
+# KERNEL: [DRIVER] Driving a=1 b=1
+# KERNEL: [DRIVER] DUT Output: sum=0 carry=0
+*/
