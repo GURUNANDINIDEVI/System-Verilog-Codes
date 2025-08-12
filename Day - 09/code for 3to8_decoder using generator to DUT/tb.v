@@ -46,3 +46,22 @@ module tb;
        //#50 $finish;
     end
 endmodule
+
+/* 
+OUTPUT:
+GENERATOR: a=0
+GENERATOR: a=1
+GENERATOR: a=10
+GENERATOR: a=11
+GENERATOR: a=100
+GENERATOR: a=101
+GENERATOR: a=110
+GENERATOR: a=111
+DRIVER: a=0 => y=1
+DRIVER: a=1 => y=10
+DRIVER: a=10 => y=100
+DRIVER: a=11 => y=1000
+DRIVER: a=100 => y=10000
+DRIVER: a=101 => y=100000
+DRIVER: a=110 => y=1000000
+DRIVER: a=111 => y=10000000
