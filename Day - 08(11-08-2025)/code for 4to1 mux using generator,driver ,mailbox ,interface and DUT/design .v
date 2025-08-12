@@ -8,7 +8,7 @@ module mux4to1 (
   assign y = d[sel];
 endmodule
 
-interface mux4_if;
+interface mux_if;
     logic d;
     logic sel;
     logic y;
