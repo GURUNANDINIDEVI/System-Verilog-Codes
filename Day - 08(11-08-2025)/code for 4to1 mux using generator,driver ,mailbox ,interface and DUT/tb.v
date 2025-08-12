@@ -1,11 +1,5 @@
 //T.Guru Nandini Devi
 //23A91A0460
-// Interface for 4:1 MUX
-interface mux_if;
-  logic [3:0] d;   
-  logic [1:0] sel; 
-  logic y;        
-endinterface
 
 class generator;
   mailbox mbx;
