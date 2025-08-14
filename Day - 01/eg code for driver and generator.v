@@ -30,6 +30,8 @@ module tb;
 endmodule
 
 
+
+/*
 Output:
 Generated data=303379748
 Received data=303379748
