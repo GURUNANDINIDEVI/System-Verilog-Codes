@@ -1,5 +1,4 @@
-// Code your testbench here
-// or browse Examples
+
 class generator;
   mailbox mbx;
 
