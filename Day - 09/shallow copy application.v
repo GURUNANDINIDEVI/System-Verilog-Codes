@@ -2,9 +2,9 @@ class packet;
   int count;
 endclass
 class vlsi;
-  int a;
-  int b;
-  packet pck=new();
+  int a;      //Non Object Property
+  int b;       //Non Object Property
+  packet pck=new();   //Object Property
 endclass
 module tb;
   vlsi v1,v2;
